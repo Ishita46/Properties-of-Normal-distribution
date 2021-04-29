@@ -43,3 +43,7 @@ print("Standard Deviation of this data is {}".format(std_deviation))
 print("{}% of data lies withing 1 standard deviation".format(len(list_of_data_withing_1_std_deviation)*100.0/len(dice_result)))
 print("{}% of data lies withing 2 standard deviation".format(len(list_of_data_withing_2_std_deviation)*100.0/len(dice_result)))
 print("{}% of data lies withing 3 standard deviation".format(len(list_of_data_withing_3_std_deviation)*100.0/len(dice_result)))
+
+#68% of data lie between mean - sd and mean + sd
+#95% of data lie between mean -2sd and mean + 2sd
+#99% of data lie between mean - 3sd and mean + 3sd
